@@ -22,7 +22,7 @@ The goal of this project is to build a **scalable, real-world application** that
 ##  Folder Structure
 This project follows standard Maven directory layout with a package-by-feature approach.
 
-```text
+``text
 SmartTaskManager/
 │
 ├── src/main/java/com/taskmanager/
@@ -36,7 +36,7 @@ SmartTaskManager/
 ├── pom.xml           # Maven Dependencies (MySQL Connector)
 └── README.md         # Project Documentation
 
-##  Key Features
+## Key Features
 
 | Feature               | Description                                                   |
 |-----------------------|---------------------------------------------------------------|
@@ -45,6 +45,8 @@ SmartTaskManager/
 | Advanced Filtering    | View tasks based on Priority (High/Medium/Low).             |
 | Productivity Report   | Generates a statistical report of completion percentage.    |
 | Input Validation      | Prevents crashes by validating dates and numbers.           |
+
+---
 
 ## Tech Stack
 
@@ -56,65 +58,39 @@ SmartTaskManager/
 | Build Tool     | Maven                                   |
 | IDE            | NetBeans / IntelliJ IDEA               |
 
+---
+
 ## Installation & Setup (Step-by-Step)
-1. Clone the Repository
-    ``bash
-git clone https://github.com/YourUsername/Smart-Task-Manager-Java.git
+
+### 1. Clone the Repository
+ ``bash
+git clone https://github.com/Udaniamasha/Smart-Task-Manager-Java.git
 cd Smart-Task-Manager-Java
-2. Configure the Database
-Open MySQL Workbench or your command line.
+
+### 2. Configure the Database
+
+Open MySQL Workbench or command line.
+
 Open the database.sql file provided in this repo.
+
 Run the script to create the database and populate it with sample tasks.
-3. Update Configuration
+
+### 3. Update Configuration
+
 Navigate to src/main/java/com/taskmanager/config/DatabaseConnection.java.
-Update the PASSWORD field with your MySQL root password:
-code
-Java
-private static final String PASSWORD = "";
-4. Build and Run
-Using the command line (inside the project folder):
-code
-Bash
+
+Update the PASSWORD field with MySQL root password:
+``java
+private static final String PASSWORD = "your_actual_password";
+
+### Buid and Run
+``bash
 # Clean and Build the project
 mvn clean install
 
 # Run the Application
 mvn exec:java -Dexec.mainClass="com.taskmanager.Main"
-🖥 Sample Output
-Here is what the application looks like when running:
-code
-Text
-===============================================
-  SMART TASK MANAGER (Java + MySQL)  
-===============================================
 
- Main Menu:
-1. Add New Task
-2. View All Tasks
-3. Sort Tasks by Date
-4. Filter by Priority
-5. Mark Task as Completed
-6. Delete Task
-7. Generate Productivity Report
-8. Exit
 
- Choose an option: 7
 
- --- PRODUCTIVITY REPORT ---
-Total Tasks: 20
-Completed:   3
-Pending:     17
-Efficiency:  15.00%
-------------------------------
-## Validation & Error Handling
-This project focuses on stability:
-SQL Injection Protection: All database queries use PreparedStatement to prevent security vulnerabilities.
-Input Sanitization: The app validates dates (YYYY-MM-DD) and priorities (Low/Medium/High) before sending data to the backend.
-Graceful Failure: If the database goes down, the app catches SQLException and displays a user-friendly error message instead of crashing with a stack trace.
-## Future Enhancements
 
-GUI: Migrate from Console to JavaFX or Swing.
-
-Web API: Convert the Service layer into a REST API using Spring Boot.
-
-User Auth: Add Login/Register functionality for multiple users.
