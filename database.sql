@@ -16,7 +16,6 @@ CREATE TABLE tasks (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- 4. Insert 20 Realistic Tasks
 INSERT INTO tasks (title, description, priority, due_date, status) VALUES 
 -- HIGH PRIORITY TASKS
 ('Fix Login Bug', 'Resolve NullPointerException in auth module.', 'High', '2026-02-14', 'Pending'),
