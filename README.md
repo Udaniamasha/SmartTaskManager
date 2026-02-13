@@ -63,8 +63,8 @@ SmartTaskManager/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YourUsername/Smart-Task-Manager-Java.git
-cd Smart-Task-Manager-Java
+git clone https://github.com/Udaniamasha/SmartTaskManager-Java.git
+cd SmartTaskManager-Java
 ```
 
 ### 2. Configure the Database
@@ -136,6 +136,7 @@ Efficiency:  15.00%
 - Export Reports: CSV or PDF export for productivity reports.
 
 ---
+
 
 
 
