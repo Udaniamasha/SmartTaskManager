@@ -24,7 +24,7 @@ A production-quality desktop Task Manager built with **Java Swing**, following c
 
 | Dashboard | Overdue & Upcoming Alerts |
 |-----------|--------------------------|
-| ![Dashboard](docs/TaskManager2.png)(docs/TaskManager3.png) | ![Alerts](docs/TaskManager1.png) |
+| ![Dashboard](docs/TaskManager2.png,docs/TaskManager3.png)(docs/TaskManager3.png) | ![Alerts](docs/TaskManager1.png) |
 
 ---
 
