@@ -359,14 +359,5 @@ Infrastructure class. Reads `DB_URL`, `DB_USER`, `DB_PASSWORD` from environment 
 
 ---
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature-name`
-3. Follow the existing layer boundaries — UI code stays in `TaskUI`, business rules stay in `TaskService`, SQL stays in `TaskDAO`
-4. Add input validation for any new fields in `Task` setters
-5. Use `SwingWorker` for any operation that touches the database from the UI
-6. Submit a pull request with a description of the change
-
----
 
