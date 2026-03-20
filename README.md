@@ -286,7 +286,7 @@ All colours are defined as named constants at the top of `TaskUI.java` and map d
 ### Text
 
 | Constant | Hex | Usage |
-|---|---|---|---|
+|---|---|---|
 | `TEXT_PRIMARY` | `#E5E7EB` |  Table content, headings |
 | `TEXT_SECONDARY` | `#9CA3AF` | Labels, subtitles |
 | `TEXT_MUTED` | `#6B7280` |  Placeholders, status bar |
@@ -295,7 +295,7 @@ All colours are defined as named constants at the top of `TaskUI.java` and map d
 ### Status Badges
 
 | Status | Background | Text | 
-|---|---|---|---|
+|---|---|---|
 | Pending | `#F59E0B` (amber) | `#000000` | 
 | Completed | `#22C55E` (green) | `#000000` | 
 
