@@ -285,19 +285,19 @@ All colours are defined as named constants at the top of `TaskUI.java` and map d
 
 ### Text
 
-| Constant | Hex | Contrast on surface | Usage |
+| Constant | Hex | Usage |
 |---|---|---|---|
-| `TEXT_PRIMARY` | `#E5E7EB` | 13.5:1 ✅ | Table content, headings |
-| `TEXT_SECONDARY` | `#9CA3AF` | 6.8:1 ✅ | Labels, subtitles |
-| `TEXT_MUTED` | `#6B7280` | 4.6:1 ✅ | Placeholders, status bar |
-| `TEXT_HEADER` | `#FFFFFF` | 15.8:1 ✅ | Column headers |
+| `TEXT_PRIMARY` | `#E5E7EB` |  Table content, headings |
+| `TEXT_SECONDARY` | `#9CA3AF` | Labels, subtitles |
+| `TEXT_MUTED` | `#6B7280` |  Placeholders, status bar |
+| `TEXT_HEADER` | `#FFFFFF` |  Column headers |
 
 ### Status Badges
 
-| Status | Background | Text | Contrast |
+| Status | Background | Text | 
 |---|---|---|---|
-| Pending | `#F59E0B` (amber) | `#000000` | 11.8:1 ✅ |
-| Completed | `#22C55E` (green) | `#000000` | 7.2:1 ✅ |
+| Pending | `#F59E0B` (amber) | `#000000` | 
+| Completed | `#22C55E` (green) | `#000000` | 
 
 ### Urgency Colours (Alert Panels)
 
